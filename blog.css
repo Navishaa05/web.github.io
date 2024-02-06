@@ -1,0 +1,188 @@
+.blog {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 0px;
+    background: linear-gradient(to bottom, rgb(165, 195, 134), #31cd2c);
+}
+
+.blog-text {
+    width: 750px;
+    height: 850px;
+}
+
+.blog-main {
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blog-text h2 {
+    margin-top: 5px;
+    font-family: "Merriweather, serif";
+    color: rgb(236, 46, 88);
+    font-size: 75px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-text h3 {
+    color: rgba(255, 0, 174, 0.8);
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+.blog-text h5 {
+    color: rgba(255, 0, 255, 0.8);
+    font-family: cursive;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.blog-text p {
+    color: rgb(97, 15, 97);
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 7%;
+}
+
+.blog-post#blog1 .read-more button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom: 65vh; /* Adjust as needed */
+    left: 70vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+.blog-post#blog2 .read-more button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom: 25vh; /* Adjust as needed */
+    left: 70vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.blog-post#blog1 .like-counter {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.blog-post#blog2 .like-counter {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.blog-post#blog1 .like-counter button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom: 58vh; /* Adjust as needed */
+    left: 27vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.blog-post#blog2 .like-counter button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom: 20vh; /* Adjust as needed */
+    left: 27vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.blog-post#blog1 .comments button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom: 46vh; /* Adjust as needed */
+    left: 41vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+.blog-post#blog2 .comments button {
+    background-color: rgb(181, 192, 30);
+    border: 2px ridge rgb(14, 212, 195); /* Adjust border properties as needed */
+    border-radius: 30px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    position: absolute;
+    bottom:7vh; /* Adjust as needed */
+    left: 41vw; 
+    text-decoration: none;
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+/* .like-counter#likes_blog2 {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 9%;
+    margin-top: 3%;
+} */

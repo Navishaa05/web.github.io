@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gamja+Flower&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <section id="blog" class="blog">
+        <div class="blog-main">
+            <div class="blog-text">
+                <div class="blog-post" id="blog1">
+                    <h2 style="margin-left: 100px;">BLOG</h2>
+                    <h3>Learn html in 20 minutes and create your first webpage</h3>
+                    <p>The World Wide Web is a global information system that runs on hosts that are connected to internet. Today, hosts can be various devices such as laptops, smartphones, PCs, tablets, etc.</p>
+                    <div class="read-more">
+                        <button onclick="openBlog('blog1', 'https://www.crio.do/blog/learn-html-from-the-basics/')">Read More</button>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="like-counter">Likes: <span id="likes_blog1">0</span>
+                        <button onclick="incrementLikes('blog1')">Like</button>
+                    </div>
+                    <div class="comments">
+                        <h5>Comments</h5>
+                        <input type="text" id="comment_input_blog1" placeholder="Add a comment">
+                        <button onclick="addComment('blog1')">Add Comment</button>
+                        <div id="comments_blog1"></div>
+                    </div>
+                </div>
+                <!-- Repeat similar structure for Blog 2 -->
+                <div class="blog-post" id="blog2">
+                    <h3>Understand what happens when you click the login button</h3>
+                    <p>You have to pass through a login button to get the most out of the majority of online expereinces. Well-designed website login pages should elicit a sense of security.</p>
+                    <div class="read-more">
+                        <button onclick="openBlog('blog2', 'https://www.crio.do/blog/secure-jwt-authentication/')">Read More</button>
+                    </div>
+                    <div class="like-counter">Likes: <span id="likes_blog2">0</span>
+                        <button onclick="incrementLikes('blog2')">Like</button>
+                    </div>
+                    <div class="comments">
+                        <h5>Comments</h5>
+                        <input type="text" id="comment_input_blog2" placeholder="Add a comment">
+                        <button onclick="addComment('blog2')">Add Comment</button>
+                        <div id="comments_blog2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="blog.js"></script>
+</body>
+</html>
+
